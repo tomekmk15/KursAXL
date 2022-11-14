@@ -1,19 +1,24 @@
 package com.marek21;
 
+import com.marek21.drive.Drive;
+import com.marek21.usbdevice.USBDevice;
+
 import java.util.ArrayList;
 import java.util.List;
 
 public class Computer {
 
    private Monitor monitor;
-   private  Drive drive;
+   private Drive drive;
    private  Headphones headphones;
 
 
-   List<USBdevices> USBDevices = new ArrayList<>();
+
+   List<USBDevice> USBDevices = new ArrayList<>();
 
 
     public Computer(Monitor monitor, Drive drive){
+
 
 
 
@@ -21,8 +26,7 @@ public class Computer {
         this.drive = drive;
     }
 
-    public Monitor getMonitor() {
-        return monitor;
+    public Monitor getMonitor() {return monitor;
     }
 
     public void setMonitor(Monitor monitor) {
@@ -45,7 +49,10 @@ public class Computer {
         this.headphones = headphones;
     }
 
-    public List<USBdevices> getUSBDevices() {
+    public List<USBDevice> getUSBDevices() {
         return USBDevices;
+    }
+    public void addUSBDevice(USBDevice usbDevice){
+        
     }
 }

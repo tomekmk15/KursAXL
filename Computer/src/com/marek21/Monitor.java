@@ -8,8 +8,9 @@ public class Monitor {
         width = 800;
         height = 600;
     }
-    public void setHeighResolution(){
+    public void setheighresolution(){
         width = 3840;
+
         height = 1920;
     }
     public String getResolution() {
