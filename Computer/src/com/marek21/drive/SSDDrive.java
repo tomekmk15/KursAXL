@@ -1,24 +1,25 @@
 package com.marek21.drive;
 
-import com.marek21.File;
+import com.marek21.file.File;
 
 import java.util.Collection;
 import java.util.HashMap;
 import java.util.Map;
 
 public class SSDDrive implements Drive{
-    Map<String, File> files = new HashMap<>();
+
+    private Map<String, File> files = new HashMap<>();
+
+
     @Override
     public void addFile(File file) {
-        files.put(file.toString(), file);
-
-
-    }
+        files.put(file.getName(),file);
+     }
 
     @Override
     public void listFiles() {
         Collection<File> fileCollection = files.values();
-        for(File file : fileCollection){
+        for (File file : fileCollection){
             System.out.println(file.getName());
         }
 
@@ -29,3 +30,4 @@ public class SSDDrive implements Drive{
         return files.get(name);
     }
 }
+

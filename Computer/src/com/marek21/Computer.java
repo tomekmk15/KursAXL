@@ -14,7 +14,7 @@ public class Computer {
 
 
 
-   List<USBDevice> USBDevices = new ArrayList<>();
+   private  List<USBDevice> USBDevices = new ArrayList<>();
 
 
     public Computer(Monitor monitor, Drive drive){
@@ -53,6 +53,28 @@ public class Computer {
         return USBDevices;
     }
     public void addUSBDevice(USBDevice usbDevice){
-        
+        boolean isConnected = usbDevice.connect();
+
+        if (isConnected) {
+            USBDevices.add(usbDevice);
+        }
     }
-}
+    public void removeUSBDevice(USBDevice usbDevice){
+        boolean isDisconnected = usbDevice.disconnect();
+
+
+
+
+        if (!isDisconnected) {
+            System.out.println("Forcible disconnection");
+
+        }
+
+            USBDevices.remove(usbDevice);
+
+
+        }
+
+    }
+
+

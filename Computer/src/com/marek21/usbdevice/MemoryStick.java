@@ -10,7 +10,7 @@ public class MemoryStick implements USBDevice  {
 
     @Override
     public boolean connect() {
-        System.out.println("Connected Memoryu Stick");
+        System.out.println("Connected Memory Stick");
         return true;
     }
 

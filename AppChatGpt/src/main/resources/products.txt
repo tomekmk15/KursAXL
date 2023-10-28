@@ -1,0 +1,9 @@
+eggs
+butter
+bread
+tomatoes
+milk
+cheese
+jaja
+chleb
+

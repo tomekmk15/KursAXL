@@ -1,5 +1,9 @@
 <html>
 <body>
-<h2>Hello World!</h2>
+
+
+<!-- Input button element -->
+<input type="button" value="Click Me" onclick="alert('Button Clicked!')">
+
 </body>
 </html>

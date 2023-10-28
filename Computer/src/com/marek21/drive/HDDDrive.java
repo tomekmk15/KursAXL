@@ -1,6 +1,6 @@
 package com.marek21.drive;
 
-import com.marek21.File;
+import com.marek21.file.File;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -8,7 +8,7 @@ import java.util.Optional;
 
 public class HDDDrive implements Drive {
 
-    List<File> files = new ArrayList<>();
+   private List<File> files = new ArrayList<>();
 
 
     @Override
