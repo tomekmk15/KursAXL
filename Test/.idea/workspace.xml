@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="4f697f4e-cb59-47d9-b3d2-8fcedfb4471b" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../Computer/Computer.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Computer/src/com/marek21/file/AbstractFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Computer/src/com/marek21/file/File.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Computer/src/com/marek21/file/FileType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Computer/src/com/marek21/file/imagefile/AbstractImageFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Computer/src/com/marek21/file/imagefile/GIfImageFIle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Computer/src/com/marek21/file/imagefile/JPGImageFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Computer/src/com/marek21/file/musicfile/AbstractMusicFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Computer/src/com/marek21/file/musicfile/MusicFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Garnek/Garnek.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kolko/Kolko.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kolko/src/Gra.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kolko/src/Gracz.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kolko/src/Kolko.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyFrame/MyFrame.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Shop/Shop.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TicTacToe/.idea/TicTacToe.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TicTacToe/out/production/TicTacToe/.idea/TicTacToe.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Uzytkowenik/src/pl/mielec10/Uzytkownik.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Computer/src/com/marek21/Computer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Computer/src/com/marek21/Computer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Computer/src/com/marek21/File.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Computer/src/com/marek21/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Computer/src/com/marek21/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Computer/src/com/marek21/drive/Drive.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Computer/src/com/marek21/drive/Drive.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Computer/src/com/marek21/drive/HDDDrive.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Computer/src/com/marek21/drive/HDDDrive.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Computer/src/com/marek21/drive/SSDDrive.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Computer/src/com/marek21/drive/SSDDrive.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Computer/src/com/marek21/usbdevice/MemoryStick.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Computer/src/com/marek21/usbdevice/MemoryStick.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 0
+}]]></component>
+  <component name="ProjectId" id="2XJ4Z66uFCVBGs1MNCYYOnzhGnc" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4f697f4e-cb59-47d9-b3d2-8fcedfb4471b" name="Changes" comment="" />
+      <created>1698333903372</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1698333903372</updated>
+    </task>
+    <servers />
+  </component>
+</project>
